@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+float main() {
+    // Write C code here
+    float a=3.5;
+    int b=5;
+    int c=6;
+    int product=a*b*c;
+    printf("product = %d\n",product);
+
+
+    float sum = a+b+c ;
+   printf ("sum = %f",sum);
+
+   
+}
