@@ -48,3 +48,16 @@ int main() {
 
     return 0;
 }
+
+                                   celsius tyo fehrenit
+#include <stdio.h>
+
+int main() {
+    float celcius = 90,fehrenheit = (celcius *9/5)+32;
+   
+    printf("fehrenheit = %f\n", fehrenheit);
+
+    
+
+    return 0;
+}
