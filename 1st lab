@@ -14,3 +14,23 @@ float main() {
 
    
 }
+                                area and circumference of circle 
+
+#include <stdio.h>
+
+int main() {
+    float Radius = 8;
+    float pi = 3.14;
+    float circumference  = 2*pi*Radius;
+    // Write C code here
+    printf("circumference = %0.2f\n" ,circumference);
+
+    float area = pi*Radius*Radius;
+    printf ("area = %0.2f" ,area);
+
+    
+
+    
+
+    return 0;
+}
