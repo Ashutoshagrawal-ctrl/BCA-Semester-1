@@ -61,3 +61,20 @@ int main() {
 
     return 0;
 }
+                                               struct student
+#include <stdio.h>
+
+    struct student{
+    int rollnumber;
+    char section;
+    float marks;
+    };
+int main(){
+    
+   struct student s1 = {24,'A',55.0};
+
+    printf("s1.rollnumber=%d\n",s1.rollnumber);
+    printf("s1.section=%c\n",s1.section);
+    printf("s1.marks=%f\n",s1.marks);
+    return 0;
+}
