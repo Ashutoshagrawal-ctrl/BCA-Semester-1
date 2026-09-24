@@ -82,3 +82,25 @@ int main(){
     
     return 0;
 }
+                                                               question no. 1
+#include <stdio.h>
+
+    struct point{
+    int x;
+    int y;
+    
+    };
+int main(){
+    
+   struct point p ;
+    printf("x=");
+    scanf("%d",&p.x);
+    printf("y=");
+    scanf("%d",&p.y);
+    p.x = p.x+5;
+       p.y = p.y+5;
+        printf ("\nafter incrementing by 5:\n");
+        printf ("x = %d\n",p.x);
+    printf ("x = %d\n",p.y);
+    return 0;
+}
