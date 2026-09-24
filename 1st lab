@@ -34,6 +34,28 @@ int main() {
 
     return 0;
 }
+                                    if we use union on place of struct
+#include <stdio.h>
+
+    union point{
+    int x;
+    int y;
+    
+    };
+int main(){
+    
+   union point p ;
+    printf("x=");
+    scanf("%d",&p.x);
+     p.x = p.x+5;
+    printf ("after incrementing by 5,x=%d\n\n",p.x);
+    printf("y=");
+    scanf("%d",&p.y);
+    p.y = p.y+5;
+        printf ("after incrementing by 5,y=%d\n\n",p.y);
+       
+    return 0;
+}
 
 
                                simple interest
