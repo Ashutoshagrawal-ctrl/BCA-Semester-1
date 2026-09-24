@@ -71,10 +71,14 @@ int main() {
     };
 int main(){
     
-   struct student s1 = {24,'A',55.0};
-
-    printf("s1.rollnumber=%d\n",s1.rollnumber);
-    printf("s1.section=%c\n",s1.section);
-    printf("s1.marks=%f\n",s1.marks);
+   struct student  s1 = {24,'A',55.0};
+   struct student  s2 = {25,'d',69.6};
+    printf("rollnumber=%d\n",s1.rollnumber);
+    printf("section=%c\n",s1.section);
+    printf("marks=%f\n",s1.marks);
+     printf("rollnumber=%d\n",s2.rollnumber);
+    printf("section=%c\n",s2.section);
+    printf("marks=%f\n",s2.marks);
+    
     return 0;
 }
